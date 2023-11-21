@@ -1,10 +1,12 @@
 import React from "react";
+// import styles from './Header.module.scss'
 
 const Header = () => {
  return (
-    <div className="header">
-<img src="/images/logo/Cream_royal.logo.svg" alt="LOGO" />
-    </div>
+    // <div className={styles.header__section}>
+
+<img src="/images/Logo/CREAM_ROYAL.logo.svg" alt="LOGO" />
+    // </div>
  )
 
   

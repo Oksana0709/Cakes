@@ -1,0 +1,25 @@
+
+.search__block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 40px 20px 40px;
+  input {
+   border: 1px solid #f3f3f3 ;
+   font-size: 14px;
+   padding:10px;
+   border-radius: 10px;
+   width: 200px;
+    }
+  }
+   .search__block {
+    position: relative;
+    .clear {
+      position: absolute;
+      right: 0;
+     width: 18px;
+     height: 18px;
+    }
+   }
+
+  
