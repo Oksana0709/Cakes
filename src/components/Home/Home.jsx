@@ -1,17 +1,17 @@
 import React from "react";
-// import styles from './Home.module.scss';
+import styles from './Home.module.scss';
 import Card from '../Card/Card';
 
 
 const Home = () => {
 
-<div className="content">
-<div className="search__block">
-  <h1 className="cakes"> </h1>
+<div className={styles.content}>
+<div className={styles.search__block}>
+  <h1 className={styles.cakes}> Cakes</h1>
   <input  placeholder="Search..."></input>
-<img className="clear" src="/img/buttonAdd.png" alt="Clear"/>
+<img className={styles.clear} src="/img/buttonAdd.p" alt="Clear"/>
 </div>
-<div className="cards__cakes">
+<div className={styles.cards__cakes}>
     <Card/>
 </div>
 </div> 
