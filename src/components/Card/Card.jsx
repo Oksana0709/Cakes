@@ -9,10 +9,10 @@ const Card = (props) => {
         <img src="" alt="Favorite" />
     </div>
          <img className={styles.img__card}src="/images/chocolate_with_cherry.jpg" alt="Cake" />
-           <h5>title</h5>
+           <h4>{props.title}</h4>
            <div>
             <div>
-              <span>Prise:</span>
+              <span>{props.price}</span>
               <b> dollars</b>
            </div>
             <img src=""  alt="button"/></div>
