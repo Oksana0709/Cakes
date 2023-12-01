@@ -10,12 +10,23 @@ import Home from './components/Home/Home';
 
 function App() {
   return (
-    <div className="App">
+    <div className="wrapper">
     <Header />
+    <div className='content'>
+    <div className='container'>
+      <div className='content__top'>
     <Categories />
     <Sort />
-    <Card title='Шоkoладный' price={15}/>
     <Home />
+    </div>
+    <h2 className='content__title'>All cakes</h2>
+    <div className='content__items'>
+      {cakes.map((obj) => (
+         <Card {...obj}/>
+      ))}
+    </div>
+    </div>
+    </div>
     </div>
   );
 }
