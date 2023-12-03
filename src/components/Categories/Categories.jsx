@@ -2,7 +2,7 @@ import React from "react";
 
 const Categories = () => {
     const [activeIndex, setActiveIndex] = React.useState(0)
-const categories = ['everything', 'шоколад', 'бисквит', 'ягодный', 'морковный']
+const categories = ["Сlassic-cakes", "Biscuit-cakes", "Bento-cakes",]
     const onClickCategory = (index) => {
         setActiveIndex(index)
     }

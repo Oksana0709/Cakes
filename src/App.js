@@ -5,6 +5,7 @@ import Categories from './components/Categories/Categories';
 import Sort from './components/Sort/Sort';
 import Card from './components/Card/Card';
 import Home from './components/Home/Home';
+import cakes from './assets/cakes.json';
 
 
 

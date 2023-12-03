@@ -1,0 +1,116 @@
+ [
+  {
+    "id": 0,
+    "image": "/images/chocolate_with_cherry.jpg",
+    "title":"Chocolate with cherry", 
+    "price": 22,
+    "category": "Biscuit-cakes"
+  },
+
+  {
+    "id": 1,
+    "image": "/images/Bird_from_Cream_Royal.jpg",
+    "title":"Bird from Cream Royal", 
+    "price": 9,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 2,
+    "image": "/images/caramel.jpg",
+    "title":"Caramel", 
+    "price": 14,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 3,
+    "image": "/images/carrot.jpg",
+    "title":"Carrot",
+    "price": 11,
+    "category": "Biscuit-cakes"
+  },
+  {
+    "id": 4,
+    "image": "/images/bee.jpg",
+    "title":"Bee",
+    "price": 10,
+    "category": "Bento-cakes"
+  },
+  {
+    "id": 5,
+    "image": "/images/Esterhazy.jpg",
+    "title":"Esterhazy", 
+    "price": 14,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 6,
+    "image": "/images/Fiesta_with_mango_and_passion_fruit.jpg",
+    "title":"Fiesta with mango and passion fruit", 
+    "price": 11,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 7,
+    "image": "/images/honey with chocolate.jpg",
+    "title":"Honey with chocolate",
+    "price": 18,
+    "category": "Biscuit-cakes"
+  },
+  {
+    "id": 8,
+    "image": "/images/marakaibo.jpg",
+    "title":"Marakaibo", 
+    "price": 23,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 9,
+    "image": "/images/monarсh.jpeg",
+    "title":"Monarсh", 
+    "price": 18,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 10,
+    "image": "/images/sour_cream.jpg",
+    "title":"Sour cream", 
+    "price": 16,
+    "category": "Biscuit-cakes"
+  },
+  {
+    "id": 11,
+    "image": "/images/three_chocolates.jpg",
+    "title":"Three chocolates", 
+    "price": 24,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 12,
+    "image": "/images/tiramisu.jpg",
+    "title":"Tiramisu", 
+    "price": 26,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 13,
+    "image": "/images/Bento_cake.jpg",
+    "title":"Bento",
+    "price": 12,
+    "category": "Bento-cakes"
+  },
+  {
+    "id": 14,
+    "image": "/images/truffle.jpg",
+    "title":"Truffle", 
+    "price": 22,
+    "category": "Сlassic-cakes"
+  },
+  {
+    "id": 15,
+    "image": "/images/Venus.jpg",
+    "title":"Venus",
+    "price": 19,
+    "category": "Biscuit-cakes"
+  }
+
+]
