@@ -9,7 +9,7 @@ const Card = ({title, price, image}) => {
         <img src="" alt="Favorite" />
     </div>
          <img className={styles.img__card}src={image} alt="Cake" />
-           <h4>{title}</h4>
+           <h4 className="">{title}</h4>
            <div>
             <div>
               <span>{price}</span>
