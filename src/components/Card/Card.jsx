@@ -15,7 +15,8 @@ const Card = ({title, price, image}) => {
               <span>{price}</span>
               <b> dollars</b>
            </div>
-            <img src=""  alt="button"/></div>
+            <button className={styles.card__buttom}>Add</button>
+            </div>
          </div>
  
          </div>
