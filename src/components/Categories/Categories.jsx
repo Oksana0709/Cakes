@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './../Card/Card/module.scss';
 
 const Categories = () => {
     const [activeIndex, setActiveIndex] = React.useState(0)
@@ -7,10 +8,10 @@ const categories = ["Сlassic-cakes", "Biscuit-cakes", "Bento-cakes",]
         setActiveIndex(index)
     }
     return (
-        <div className="categories">
+        <div className={styles.categories}>
             <ul>
-                {categories.map((value, i) => (
-                     <li key={i} onClick={() => onClickCategory(i)}className={activeIndex === i ? 'active' : ''}>{value}</li>
+                {categories.map((value, index) => (
+                     <li key={index} onClick={() => onClickCategory(index)}className={activeIndex === index ? 'active' : ''}>{value}</li>
                 ))} 
             </ul>
         </div>

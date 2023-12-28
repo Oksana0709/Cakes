@@ -4,11 +4,19 @@ import Header from './components/Header/Header';
 import Categories from './components/Categories/Categories';
 import Sort from './components/Sort/Sort';
 import Card from './components/Card/Card';
-import cakes from './assets/cakes.json';
 
 
 
 function App() {
+  const [items, setItems] =React.useState([]);
+
+React.useEffect(() => {
+  fetch('https://658dab4d7c48dce947399205.mockapi.io/items')
+  .then((arr) => arr.json())
+  .then((arr) => {
+    setItems(arr);
+  });
+}, [])
   return (
     <div className="wrapper">
     <Header />
@@ -20,7 +28,7 @@ function App() {
     </div>
     <h2 className='content__title'>All cakes</h2>
     <div className='content__items'>
-      {cakes.map((obj) => (
+      {items.map((obj) => (
          <Card key={obj.id}{...obj}/>
       ))}
     </div>
