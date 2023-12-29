@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './../Card/Card/module.scss';
+import styles from './../Categories/Categories.module.scss';
 
 const Categories = () => {
     const [activeIndex, setActiveIndex] = React.useState(0)
