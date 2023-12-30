@@ -1,22 +1,22 @@
 import React from 'react';
 import './App.scss';
 import Header from './components/Header/Header';
+import { Routes, Route } from 'react-router-dom';
+import Home from './../src/pages/Home';
 import NotFound from './pages/NotFound';
-// import Home from './pages/Home';
-
-
+import Cart from './pages/Cart';
 
 
 function App() {
-  
-
-
   return (
     <div className="wrapper">
     <Header />
     <div className='content'>
-   {/* <Home /> */}
-   <NotFound />
+   <Routes>
+<Route path='/' element={<Home />}/>
+<Route path='/cart' element={<Cart/>}/>
+<Route path='*' element={<NotFound />}/>
+   </Routes>
     </div>
     </div>
   );
